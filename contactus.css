@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Climate+Crisis&family=Gloock&family=Inter:wght@200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap');
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+}
+
+.contactus{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.contacthead{
+    font-family: 'Sen', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.logo-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .contact{
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+  }
+  
+  .mails{
+      background-color: #592EA9;
+      background-position: cover;
+  }
+  
+  .emailtext{
+      font-family: 'Sen', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+  }
+  
+  .Section2 button{
+    font-family: 'Sen', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #FFD050;
+    border: 0px;
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .Contactus{
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      font-weight: 900;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  
+      .conatactustext{
+          font-family: 'Sen', sans-serif;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 20px;
+          letter-spacing: -2p;
+          text-align: center;
+          justify-self: auto;
+      }
+  
+      .mails{
+        background-color: #592EA9;
+        background-position: cover;
+    }
+  
+      .emailtext{
+        font-family: 'Sen', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+    }
+  
+    .icon{
+      width: 10px;
+    }
+  
+    .logo-menu-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 992px) {
+    .logo-menu-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  

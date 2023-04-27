@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Climate+Crisis&family=Gloock&family=Inter:wght@200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap');
+
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+}
+
+.hero h1{
+    font-family: 'Sen', sans-serif;
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -2px;
+    text-align: left;   
+    height: 80vh;
+}
+
+.logocontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer{
+    background-color: #232536;
+}
+footer h1{
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+.Footercard{
+    background-color: #000000;
+}
+
+.Footerbtn{
+    background-color: #ffd050;
+    font-family: 'Sen', sans-serif;
+    
+}
+
+.Footerbtn button{
+    font-size: 12px;
+}
+
+.Footerinp{
+    background-color: transparent;
+    border: 0.5px solid #ffd050;
+}
+
+.Footeraddress img{
+    color: white;
+}
+
+#mission0{
+    width: 600px;
+}
+.head {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.text{
+    font-family: 'Sen', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .logocontainer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+   
+.media-1 {
+    display: block;
+    margin-left: -160px;
+    width: 100%;
+}        
+
+.pattern-1 {
+    padding-right: 40px;
+    width: 100%;
+}
+             
+
+    .hero h1{
+        font-family: 'Sen', sans-serif;
+        padding-left: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: -2px;
+        text-align: left;   
+        height: 80vh;
+    }
+
+    .Footerinp{
+        background-color: transparent;
+        border: 0.5px solid #ffd050;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .mision-1 {
+        margin-left: -100px;    
+    }
+    /* #miss{
+        margin-left: -40px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #cap{
+        width: 400px;
+    } */
+
+    .quotes-1 {
+        width: 100%;
+        overflow: hidden;
+        margin-left: -25%;
+    }
+    
+    .quotes-2 {
+        margin-left: -25%;
+        overflow: hidden;
+        width: 100%;
+        padding-right: 10%;
+        
+    }
+
+    
+    
+}
+
+.mission {
+   
+    background-color: #F4F0F8;
+    width: 839px;
+    height: 304px;
+    margin-left: 146px;
+}
+
+.mision {
+    font-family: Sen;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+.mision-1 {
+    padding-left: 110px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.pattern {
+    margin-left: 133px;
+}
+
+
+
+
+.firstparagraph {
+    text-align: justify;
+    font-family: inter;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+}
+
+.secondparagraph {
+    text-align: justify;
+    font-family: inter;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+}
+
+.thirdparagraph {
+    text-align: justify;
+    font-family: inter;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+}
+
+.list {
+    margin-left: 40px;
+    line-height: 30px;
+}
+
+.area {
+    color: #382B73;
+}
+
+.quotes {
+    margin-left: 14%;
+    
+}
+
+.heading3 {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
